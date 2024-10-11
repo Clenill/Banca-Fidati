@@ -1,0 +1,16 @@
+﻿<Window x:Class="ContoBancarioWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContoBancarioWPF"
+        mc:Ignorable="d"
+        Title="Banca Fidelity Home" Height="450" Width="800">
+    <Grid Background="Gray">
+        <TextBox HorizontalAlignment="Center" Margin="0,138,0,0" TextWrapping="Wrap" Text="Bentornato nella tua banca preferita, di seguito puoi accedere al tuo conto inserendo le credenziali indicate in fase di registrazione." VerticalAlignment="Top" Width="780" Height="100" TextChanged="TextBox_TextChanged" FontSize="24" Background="Gray" BorderBrush="Gray" Foreground="Black" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBox x:Name="nomeBancaTextbox" HorizontalAlignment="Center" Margin="0,51,0,0" TextWrapping="Wrap" Text="Banca Fidelity" VerticalAlignment="Top" Width="244" Foreground="Black" Background="Gray" Height="54" TextChanged="TextBox_TextChanged_1" BorderBrush="Gray" FontSize="36" FontWeight="Bold"/>
+        <Button Content="Accedi" HorizontalAlignment="Left" Margin="125,299,0,0" VerticalAlignment="Top" Height="44" Width="138" FontSize="20" FontWeight="Bold" Cursor="Hand" Click="Button_ClickAccedi"/>
+        <Button Content="Registrati" Margin="537,299,125,0" VerticalAlignment="Top" Height="44" FontSize="20" FontWeight="Bold" Cursor="Hand" Click="Button_ClickRegistrati"/>
+
+    </Grid>
+</Window>
